@@ -1,0 +1,53 @@
+@charset "utf-8";
+h1 {
+    position: relative;
+    color: #158b2b;
+    font-size: 35px;
+    padding: 10px 0;
+    text-align: center;
+    margin: 1.5em 0;
+}
+
+h1:before {
+    content: "";
+    position: absolute;
+    top: -8px;
+    left: 50%;
+    width: 150px;
+    height: 58px;
+    border-radius: 50%;
+    border: 5px solid #a6ddb0;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+body {
+	background: linear-gradient(#9ce8ec, #d8e2e2);
+    overflow-y: scroll;
+}
+
+#sum_area {
+    position: fixed;
+    top: 450px;
+    right: 70px;
+}
+
+.sum_area_btn{
+    appearance: none;
+    border: 1px solid rgb(13, 7, 7);
+    color: rgb(244, 4, 4);
+    padding: 8px 16px;
+    font-size: 16px;
+    border-radius: 900vh;
+    font-weight:900;
+}
+
+#answer {
+    position: fixed;
+    top: 550px;
+    right: 75px;
+    color: rgb(212, 93, 93);
+    font-size: 3em;
+}

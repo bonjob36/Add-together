@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>一気に足し算電卓！</h1>
+    <div align="center">
+        <p  style="text-align:center; font-size: 1.2em;">足し算したい値の個数を入力してね</p>
+        <input type="text" id="textbox1">
+        <button  onclick="prepare()">入力した</button>
+        <br><br>
+    </div>
+    <div align="center" id="input_area">
+    </div>
+    <div id ="sum_area">
+        <button class="sum_area_btn" onclick="run()">計算</button> 
+        <button class="sum_area_btn" onclick="refresh()">クリア</button>
+        <p style="font-size: 1.5em;">答えは</p>
+    </div>
+    <div id="answer">
+        0
+    </div>
+    <script src="./calc.js">
+    </script>
+</body>
+</html>
