@@ -1,5 +1,7 @@
 # Add-together
-This is a web application that adds multiple values at once.
+This is a web application that adds multiple values at once, and is available at the following url.
+
+https://bonjob36.github.io/Add-together/
 
 The following is a demonstration video.
 
